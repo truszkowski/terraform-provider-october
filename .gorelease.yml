@@ -26,4 +26,4 @@ signs:
       - "${artifact}"
 
 release:
-  disable: true
+  draft: true
