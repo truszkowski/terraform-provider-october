@@ -60,5 +60,5 @@ jobs:
 
           # This is the secret of the API key you generated earlier.
           SPACELIFT_API_KEY_SECRET: ${{ secrets.SPACELIFT_API_KEY_SECRET }}
-        run: # Don't forget to change the provider type!
-          spacectl provider create-version --type=TYPE-change-me!!!
+        run:
+          spacectl provider create-version --type=october
